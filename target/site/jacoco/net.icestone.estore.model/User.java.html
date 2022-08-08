@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>User.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">UserService</a> &gt; <a href="index.source.html" class="el_package">net.icestone.estore.model</a> &gt; <span class="el_source">User.java</span></div><h1>User.java</h1><pre class="source lang-java linenums">package net.icestone.estore.model;
+
+public class User {
+    private String firstName;
+    private String lastName;
+    private String email;
+    private String id;
+
+<span class="nc" id="L9">    public User(String firstName) {</span>
+<span class="nc" id="L10">        this.firstName = firstName;</span>
+<span class="nc" id="L11">    }</span>
+
+<span class="nc" id="L13">    public User(String firstName, String lastName, String email) {</span>
+<span class="nc" id="L14">        this.firstName = firstName;</span>
+<span class="nc" id="L15">        this.lastName = lastName;</span>
+<span class="nc" id="L16">        this.email = email;</span>
+<span class="nc" id="L17">    }</span>
+
+<span class="fc" id="L19">    public User(String id, String firstName, String lastName, String email) {</span>
+<span class="fc" id="L20">    	this.id = id;</span>
+<span class="fc" id="L21">    	this.firstName = firstName;</span>
+<span class="fc" id="L22">        this.lastName = lastName;</span>
+<span class="fc" id="L23">        this.email = email;</span>
+    	
+		// TODO Auto-generated constructor stub
+<span class="fc" id="L26">	}</span>
+
+	public String getFirstName() {
+<span class="fc" id="L29">        return firstName;</span>
+    }
+
+    public void setFirstName(String firstName) {
+<span class="nc" id="L33">        this.firstName = firstName;</span>
+<span class="nc" id="L34">    }</span>
+
+
+    public String getLastName() {
+<span class="fc" id="L38">        return lastName;</span>
+    }
+
+    public void setLastName(String lastName) {
+<span class="nc" id="L42">        this.lastName = lastName;</span>
+<span class="nc" id="L43">    }</span>
+
+    public String getEmail() {
+<span class="fc" id="L46">        return email;</span>
+    }
+
+    public void setEmail(String email) {
+<span class="nc" id="L50">        this.email = email;</span>
+<span class="nc" id="L51">    }</span>
+
+	public String getId() {
+<span class="fc" id="L54">		return id;</span>
+	}
+
+	public void setId(String id) {
+<span class="nc" id="L58">		this.id = id;</span>
+<span class="nc" id="L59">	}</span>
+    
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.8.202204050719</span></div></body></html>
